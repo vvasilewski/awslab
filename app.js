@@ -12,5 +12,7 @@ var urlMap = [
 
 var service = require("./lib/service").http(urlMap);
 
+console.log("michal");
+
 service(PORT);
 
